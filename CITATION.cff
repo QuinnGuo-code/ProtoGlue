@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "ProtoGlue"
+message: "If you use this software, please cite it as follows."
+type: software
+authors:
+  - family-names: Guo
+    given-names: Xuan
+  - family-names: Xian
+    given-names: Xuewei
+  - family-names: Wu
+    given-names: Siyi
+  - family-names: Wang
+    given-names: Yanqin
+  - family-names: Zhang
+    given-names: Lanyue
+repository-code: "https://github.com/QuinnGuo-code/ProtoGlue"
+license: MIT
+version: 0.1.0
+date-released: 2026-03-19
+abstract: >
+  ProtoGlue is a graph-based deep learning framework for spatial multi-omics
+  integration and spatial domain identification. It jointly leverages multimodal
+  molecular profiles and spatial neighborhood information to learn biologically
+  meaningful latent representations and identify spatial domains.
+keywords:
+  - spatial multi-omics
+  - graph neural networks
+  - deep learning
+  - spatial domain identification
+  - multi-omics integration
