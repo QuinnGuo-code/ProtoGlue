@@ -59,7 +59,7 @@ import protoglue as pg
 result = pg.run_pipeline(
     data_dir=Path("data/human_lymph_node"),
     output_dir=Path("results/human_lymph_node"),
-    device="cuda",
+    device="cpu",
 )
 
 print(result["metrics"])
