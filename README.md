@@ -20,6 +20,10 @@
 
 ## Overview
 
+The overall workflow of ProtoGlue is illustrated below.
+
+![ProtoGlue overview](docs/_static/protoglue_overview.png)
+
 ## Installation
 
 ### Option 1: Install from GitHub
