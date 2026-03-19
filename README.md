@@ -65,6 +65,7 @@ result = pg.run_pipeline(
 print(result["metrics"])
 # {'n_clusters': 6, 'ARI': 0.52, 'NMI': 0.61, 'spatial_edge_purity': 0.87, ...}
 ```
+The output directory will be created automatically if it does not exist.
 
 See [examples/minimal_example.py](examples/minimal_example.py) for a command-line example.
 
