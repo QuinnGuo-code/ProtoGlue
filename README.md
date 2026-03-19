@@ -3,20 +3,16 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<!-- Uncomment after Read the Docs is deployed:
-[![Documentation Status](https://readthedocs.org/projects/protoglue-tutorials/badge/?version=latest)](https://protoglue-tutorials.readthedocs.io/en/latest/)
--->
-
-**ProtoGlue** is a graph-based deep learning framework for spatial multi-omics integration and spatial domain identification. It jointly leverages multimodal molecular profiles and spatial neighborhood information to learn biologically meaningful latent representations, identify spatial domains, and generate interpretable downstream analysis results.
+**ProtoGlue** is a unified graph-based deep learning framework for spatial multi-omics integration and spatial domain identification. It jointly leverages multimodal molecular profiles and spatial neighborhood information to learn biologically meaningful and spatially structured latent representations, identify spatial domains, and support downstream visualization and quantitative evaluation.
 
 ## Highlights
 
-- **Multi-scale spatial graph modeling** with density-adaptive neighbor selection
-- **Intra-modality dual-graph encoding** via spatial GCN and feature-space GCN
-- **Cross-attention gated multimodal fusion** for inter-modality integration
-- **Cross-modality cross-reconstruction** for enforcing cross-modal consistency
-- **Joint optimization** of spatial smoothing, VICReg regularization, and deep embedded clustering
-- **Automatic cluster-number selection** via composite scoring (silhouette + spatial purity + Moran's I + stability)
+- **Unified framework** for spatial multi-omics integration and spatial domain identification
+- **Multi-scale spatial graph construction** for modeling local tissue organization
+- **Modality-specific graph-based encoding** for learning complementary latent features
+- **Cross-modal reconstruction correspondence** for improving inter-modality consistency
+- **Uncertainty-weighted multi-objective optimization** for balanced joint training
+- **Automatic cluster-number selection** for unsupervised domain identification
 
 ## Overview
 
@@ -69,6 +65,7 @@ result = pg.run_pipeline(
 print(result["metrics"])
 # {'n_clusters': 6, 'ARI': 0.52, 'NMI': 0.61, 'spatial_edge_purity': 0.87, ...}
 ```
+
 The output directory will be created automatically if it does not exist.
 
 See [examples/minimal_example.py](examples/minimal_example.py) for a command-line example.
@@ -93,27 +90,27 @@ Expected input format: two `.h5ad` files per dataset (one per modality), with ma
 
 ProtoGlue produces:
 
-- Predicted spatial domain labels
-- Low-dimensional fused embeddings
-- Clustering evaluation metrics (ARI, NMI, silhouette, spatial purity, Moran's I)
-- Publication-ready visualizations
+- predicted spatial domain labels
+- low-dimensional fused embeddings
+- clustering and evaluation metrics, including ARI, NMI, silhouette score, spatial purity, and Moran's I
+- visualization outputs for downstream analysis
 
 See [results/README.md](results/README.md) for details on output format.
 
 ## Documentation
 
-Full documentation is available in the `docs/` folder and includes:
+Documentation source files are available in the `docs/` directory and include:
 
 - [Installation guide](docs/installation.rst)
 - [Quick start](docs/quickstart.rst)
 - [Tutorials](docs/tutorials.rst)
 - [API reference](docs/api.rst)
 
-Step-by-step tutorial notebooks are also available in the `tutorials/` directory.
+Step-by-step tutorial notebooks are also provided in the `tutorials/` directory for the benchmark datasets.
 
 ## Architecture
 
-```
+```text
 Input (PCA₁, PCA₂, spatial coords)
   │
   ├─ Multi-Scale Spatial GCN ──┐     ├─ Multi-Scale Spatial GCN ──┐
@@ -131,7 +128,7 @@ Input (PCA₁, PCA₂, spatial coords)
 
 ## Configuration
 
-All hyperparameters have sensible defaults. Override via the `config` argument:
+All hyperparameters have sensible defaults and can be overridden via the `config` argument:
 
 ```python
 result = pg.run_pipeline(
@@ -156,7 +153,7 @@ If you use ProtoGlue in your research, please cite:
 ```bibtex
 @misc{protoglue2026,
   title={ProtoGlue: a unified framework for spatial multi-omics integration and spatial domain identification},
-  author={Xuan Guo, Xuewei Xian, Siyi Wu, Yanqin Wang, Lanyue Zhang and Wei Liu},
+  author={Guo, Xuan and Xian, Xuewei and Wu, Siyi and Wang, Yanqin and Zhang, Lanyue and Liu, Wei},
   year={2026},
   note={Manuscript under review}
 }
