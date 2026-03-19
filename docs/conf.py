@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.abspath(".."))
 
 # -- Project information -----------------------------------------------------
 project = "ProtoGlue"
-copyright = "2025, Xuan Guo"
+copyright = "2026, Xuan Guo"
 author = "Xuan Guo"
 release = "0.1.0"
 
