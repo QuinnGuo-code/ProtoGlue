@@ -56,6 +56,7 @@ dev = ["pytest", "black", "flake8"]
 [project.urls]
 Homepage = "https://github.com/QuinnGuo-code/ProtoGlue"
 Repository = "https://github.com/QuinnGuo-code/ProtoGlue"
+Documentation = "https://protoglue.readthedocs.io/en/latest/"
 "Bug Tracker" = "https://github.com/QuinnGuo-code/ProtoGlue/issues"
 
 [tool.setuptools.packages.find]
