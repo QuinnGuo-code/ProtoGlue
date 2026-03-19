@@ -13,6 +13,8 @@ authors:
     given-names: Yanqin
   - family-names: Zhang
     given-names: Lanyue
+  - family-names: Liu
+    given-names: Wei
 repository-code: "https://github.com/QuinnGuo-code/ProtoGlue"
 license: MIT
 version: 0.1.0
