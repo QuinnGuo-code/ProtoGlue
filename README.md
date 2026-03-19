@@ -99,7 +99,9 @@ See [results/README.md](results/README.md) for details on output format.
 
 ## Documentation
 
-Documentation source files are available in the `docs/` directory and include:
+Online documentation is available at [Read the Docs](https://protoglue.readthedocs.io/en/latest/).
+
+Documentation source files are also available in the `docs/` directory and include:
 
 - [Installation guide](docs/installation.rst)
 - [Quick start](docs/quickstart.rst)
