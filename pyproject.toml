@@ -10,7 +10,12 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
 authors = [
-    { name = "Xuan Guo", email = "1415458426@qq.com" },
+    { name = "Xuan Guo" },
+    { name = "Xuewei Xian" },
+    { name = "Siyi Wu" },
+    { name = "Yanqin Wang" },
+    { name = "Lanyue Zhang" },
+    { name = "Wei Liu", email = "liuwei8@scu.edu.cn" },
 ]
 keywords = [
     "spatial multi-omics",
