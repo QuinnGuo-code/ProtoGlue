@@ -102,14 +102,14 @@ See [results/README.md](results/README.md) for details on output format.
 
 ## Documentation
 
-Full documentation is available in the [docs/](docs/) folder and includes:
+Full documentation is available in the `docs/` folder and includes:
 
 - [Installation guide](docs/installation.rst)
 - [Quick start](docs/quickstart.rst)
 - [Tutorials](docs/tutorials.rst)
 - [API reference](docs/api.rst)
 
-After deploying to Read the Docs, online documentation will be at [protoglue-tutorials.readthedocs.io](https://protoglue-tutorials.readthedocs.io/en/latest/).
+Step-by-step tutorial notebooks are also available in the `tutorials/` directory.
 
 ## Architecture
 
