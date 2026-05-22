@@ -1,13 +1,11 @@
 sphinx>=5.0
 sphinx-rtd-theme>=1.0
 nbsphinx>=0.8
-pandoc
 numpy
 scipy
 pandas
 scikit-learn
 matplotlib
 seaborn
-torch
-scanpy
 anndata
+scanpy
