@@ -72,7 +72,7 @@ See [examples/minimal_example.py](examples/minimal_example.py) for a command-lin
 
 ## Tutorials
 
-We provide step-by-step tutorial notebooks for three benchmark datasets:
+We provide step-by-step tutorial notebooks for two benchmark datasets:
 
 | Tutorial | Dataset | Modalities | Ground Truth |
 |----------|---------|------------|:------------:|
