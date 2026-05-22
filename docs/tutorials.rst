@@ -21,10 +21,6 @@ to spatial domain visualization.
      - RNA + ADT
      - No
      - ~3,800
-   * - :doc:`tutorials/tutorial_mouse_brain`
-     - RNA + ATAC
-     - No
-     - ~4,200
 
 .. toctree::
    :maxdepth: 1
@@ -32,7 +28,6 @@ to spatial domain visualization.
 
    tutorials/tutorial_human_lymph_node
    tutorials/tutorial_human_breast_cancer
-   tutorials/tutorial_mouse_brain
 
 Running the tutorials
 ---------------------
