@@ -9,7 +9,6 @@ Please obtain the datasets from their original publications or official release 
 |---------|-----------|--------|-----------|
 | Human Lymph Node | RNA + ADT | Official public release / original publication | Long et al., *Nature Methods* (2024) |
 | Human Breast Cancer | RNA + ADT | Official public release / original publication | Long et al., *Nature Methods* (2024) |
-| Mouse Brain | RNA + ATAC | Official public release / original publication | Long et al., *Nature Methods* (2024) |
 
 ## Minimal Example Data Requirement
 
@@ -36,14 +35,9 @@ After downloading, organize files as follows:
     │   ├── adata_ADT.h5ad
     │   └── annotation.csv
     │
-    ├── human_breast_cancer/
-    │   ├── adata_RNA.h5ad
-    │   ├── adata_ADT.h5ad
-    │   └── annotation.csv
-    │
-    └── mouse_brain/
+    └── human_breast_cancer/
         ├── adata_RNA.h5ad
-        ├── adata_peaks_normalized.h5ad
+        ├── adata_ADT.h5ad
         └── annotation.csv
 
 `annotation.csv` is optional and only used when ground-truth labels are available.
