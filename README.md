@@ -78,7 +78,6 @@ We provide step-by-step tutorial notebooks for three benchmark datasets:
 |----------|---------|------------|:------------:|
 | [Tutorial 1](tutorials/tutorial_human_lymph_node.ipynb) | Human Lymph Node | RNA + ADT | ✓ |
 | [Tutorial 2](tutorials/tutorial_human_breast_cancer.ipynb) | Human Breast Cancer | RNA + ADT | ✗ |
-| [Tutorial 3](tutorials/tutorial_mouse_brain.ipynb) | Mouse Brain | RNA + ATAC | ✗ |
 
 ## Data Preparation
 
