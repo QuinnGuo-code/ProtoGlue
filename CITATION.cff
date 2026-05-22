@@ -5,10 +5,10 @@ type: software
 authors:
   - family-names: Guo
     given-names: Xuan
-  - family-names: Xian
-    given-names: Xuewei
   - family-names: Wu
     given-names: Siyi
+  - family-names: Xian
+    given-names: Xuewei
   - family-names: Wang
     given-names: Yanqin
   - family-names: Zhang
