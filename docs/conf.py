@@ -12,6 +12,8 @@ author = "Xuan Guo"
 release = "0.1.0"
 
 # -- General configuration ---------------------------------------------------
+autodoc_mock_imports = ["torch"]
+
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
