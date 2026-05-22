@@ -1,7 +1,7 @@
 Tutorials
 =========
 
-We provide step-by-step tutorial notebooks for three benchmark datasets.
+We provide step-by-step tutorial notebooks for two benchmark datasets.
 Each tutorial walks through the complete ProtoGlue workflow from data loading
 to spatial domain visualization.
 
