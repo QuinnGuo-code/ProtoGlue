@@ -155,7 +155,7 @@ If you use ProtoGlue in your research, please cite:
 ```bibtex
 @misc{protoglue2026,
   title={ProtoGlue: a unified framework for spatial multi-omics integration and spatial domain identification},
-  author={Guo, Xuan and Xian, Xuewei and Wu, Siyi and Wang, Yanqin and Zhang, Lanyue and Liu, Wei},
+  author={Guo, Xuan and Wu, Siyi and Xian, Xuewei and Wang, Yanqin and Zhang, Lanyue and Liu, Wei},
   year={2026},
   note={Manuscript under review}
 }
