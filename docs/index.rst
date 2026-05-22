@@ -50,7 +50,7 @@ If you use ProtoGlue in your research, please cite::
 
    @misc{protoglue2026,
      title={ProtoGlue: a unified framework for spatial multi-omics integration and spatial domain identification},
-     author={Xuan Guo, Siyi Wu, Xuewei Xian, Yanqin Wang, Lanyue Zhang and Wei Liu},
+     author={Guo, Xuan and Wu, Siyi and Xian, Xuewei and Wang, Yanqin and Zhang, Lanyue and Liu, Wei},
      year={2026},
      note={Manuscript under review}
    }
